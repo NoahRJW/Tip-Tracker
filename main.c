@@ -35,10 +35,6 @@ int read_ints ()
 	return arr[0];
 }
 
-void fileCreation(char* fname){
-
-}
-
 int inputTips(){
     char data[DATA_SIZE];
 
