@@ -73,7 +73,7 @@ int inputTips(){
                       , buffer, data);
     fclose(amts);
     fclose(total);
-    printf("File created and saved successfully. 🙂 \n");
+    printf("File created and saved successfully.\n");
     return 0;
 }
 
@@ -85,7 +85,7 @@ void createNew(){
     fprintf(total, "0,");
     fclose(amts);
     fclose(total);
-    printf("File(s) created and saved successfully. 🙂 \n");
+    printf("File(s) created and saved successfully.\n");
 }
 
 void getList(char* fileName){
